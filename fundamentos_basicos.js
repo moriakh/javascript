@@ -114,7 +114,7 @@ function q12(answer) {
 }
 
 function q13(answer) {
-    for(let i=0; answer.lenght; i++){
+    for(let i=0; i<answer.lenght; i++){
         if(i<0){
             answer[i]="Dojo";
         }
